@@ -1,0 +1,14 @@
+﻿@model CarItem
+    <form asp-action="AddItem" method="POST">
+        <label asp-for="Maker">Maker:</label>
+        <input asp-for="Maker">
+        <label asp-for="Model">Model:</label>
+        <input asp-for="Model">
+        <label asp-for="Type">Type:</label>
+        <input asp-for="Type">
+        <label asp-for="Color">Color:</label>
+        <input asp-for="Color">
+        <label asp-for="Year">Year:</label>
+        <input asp-for="Year">
+        <button type="submit">Add to Car Inventory</button>
+    </form>
